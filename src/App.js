@@ -12,7 +12,7 @@ function App() {
   const [method, setMethod] = useState("POST");
   const [authorization, setAuthorization] = useState(null);
   const [body, setBody] = useState("");
-  const [respone, setResponse] = useState("do fetch pplease");
+  const [respone, setResponse] = useState("response");
 
   const handleClick = async () => {
     if (!url) {
